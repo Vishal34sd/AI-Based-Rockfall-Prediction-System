@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 
 const LandingPage = () => {
   return (
@@ -20,12 +21,12 @@ const LandingPage = () => {
           </a>
         </nav>
         <div className="flex gap-4">
-          <button className="px-4 py-2 rounded-lg border border-indigo-400 text-indigo-400 hover:bg-indigo-500 hover:text-white transition">
+          <Link to="/login"><button className="px-4 py-2 rounded-lg border border-indigo-400 text-indigo-400 hover:bg-indigo-500 hover:text-white transition">
             Login
-          </button>
-          <button className="px-4 py-2 rounded-lg bg-indigo-500 hover:bg-indigo-600 transition">
+          </button></Link>
+          <Link to="/register"><button className="px-4 py-2 rounded-lg bg-indigo-500 hover:bg-indigo-600 transition">
             Register
-          </button>
+          </button></Link>
         </div>
       </header>
 
