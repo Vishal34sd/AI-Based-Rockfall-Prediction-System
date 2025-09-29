@@ -38,17 +38,17 @@ const DashBoard = () => {
       <aside className="w-64 bg-gray-800 flex flex-col">
         <div className="text-2xl font-bold text-indigo-400 p-6">Rockfall AI</div>
         <nav className="flex-1 px-4 space-y-2">
-          <Link to="/dashboard" className="block">
-            <button className="w-full rounded-lg transition-transform duration-200 transform hover:scale-105 bg-gray-800 hover:bg-gray-700 text-left px-4 py-3">
+          <Link to="/dashboard" className="block w-full rounded-lg transition-transform duration-200 transform hover:scale-105 bg-gray-800 hover:bg-gray-700 text-left px-4 py-3">
+            
               Map & Zones
-            </button>
+            
           </Link>
-          <Link to="/analytic" className="block">
-            <button className="w-full rounded-lg transition-transform duration-200 transform hover:scale-105 bg-gray-800 hover:bg-gray-700 text-left px-4 py-3">
+          <Link to="/analytic" className="block w-full rounded-lg transition-transform duration-200 transform hover:scale-105 bg-gray-800 hover:bg-gray-700 text-left px-4 py-3">
+            
               Analytical Tab
-            </button>
+            
           </Link>
-          <Link to="/alerts" className="block">
+          <Link to="/alert" className="block">
             <button className="w-full rounded-lg transition-transform duration-200 transform hover:scale-105 bg-gray-800 hover:bg-gray-700 text-left px-4 py-3">
               Alert Tab
             </button>
