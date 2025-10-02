@@ -5,6 +5,7 @@ import { FaUserCircle, FaBars } from "react-icons/fa";
 
 const AnalyticalTab = () => {
   const [activeTab, setActiveTab] = useState("analytics");
+  
 
   const mineData = [
     { zone: "Sector 1", slopeAngle: 35, benchHeight: 12, riskScore: 70, severity: "High" },
